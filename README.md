@@ -8,8 +8,8 @@ Welcome to the 765th document repository!
 
 2. Figure out what your document is supposed to be named (i.e "132-TRP-765-COM-01")
 
-3. Create and check out a new branch with the name of your document:
-<pre>$ git checkout -b [name_of_your_new_branch] </pre>
+3. Create and check out a new branch. Name the branch-name should lead with ```dev-``` and the rest of the name should clearly identify what document this development branch is for:
+<pre>$ git checkout -b [dev-name_of_your_doc] </pre>
 
 3. Create a new folder with the name of your document
    - If your document is part of any training/presentation, create a folder name ```Lesson Files```. This is where the instructors will find any resources needed
